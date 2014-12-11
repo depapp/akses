@@ -1,0 +1,1904 @@
+2014/09/09 15:46:36 [error] [php] include(TbHtml.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\akses\themes\bootstrap\views\layouts\main.php(50): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#5 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#8 C:\xampp\htdocs\akses\protected\views\layouts\column1.php(6): SiteController->endContent()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(784): SiteController->renderFile()
+#12 C:\xampp\htdocs\akses\protected\controllers\SiteController.php(32): SiteController->render()
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\akses\index.php(13): CWebApplication->run()
+REQUEST_URI=/akses/index.php
+in C:\xampp\htdocs\akses\themes\bootstrap\views\layouts\main.php (50)
+in C:\xampp\htdocs\akses\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\akses\protected\controllers\SiteController.php (32)
+2014/09/09 16:04:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "division" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('division')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=division
+HTTP_REFERER=http://localhost/akses/index.php
+---
+2014/09/09 16:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "division" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('division')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=division
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=division
+---
+2014/09/09 16:05:53 [error] [php] Undefined variable: listDataProvider (C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\division.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\akses\index.php(13): CWebApplication->run()
+REQUEST_URI=/akses/index.php?r=site/page&view=division
+in C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\division.php (2)
+in C:\xampp\htdocs\akses\index.php (13)
+2014/09/09 16:22:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view " " was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView(' ')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=+
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=division
+---
+2014/09/09 16:29:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view " " was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView(' ')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=+
+HTTP_REFERER=http://localhost/akses/index.php
+---
+2014/09/09 16:41:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "practicum" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('practicum')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=practicum
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=division
+---
+2014/09/09 16:41:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "practicum" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('practicum')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=practicum
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=division
+---
+2014/09/09 16:41:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "practicum" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('practicum')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=practicum
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=division
+---
+2014/09/09 16:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "practicum" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('practicum')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=practicum
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=division
+---
+2014/09/09 16:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Division - UID".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Division - UID')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Division - UID')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Division -...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/index.php?r=site/Division%20-%20UID&0=Division+-+UID
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=uid
+---
+2014/09/09 16:49:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Division - UID".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Division - UID')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Division - UID')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Division -...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/index.php?r=site/Division%20-%20UID&0=Division+-+UID
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=uid
+---
+2014/09/09 16:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Data".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Data')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Data')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Data')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/index.php?r=site/Data&0=Data
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=uid
+---
+2014/09/10 18:24:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view " " was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView(' ')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=+
+HTTP_REFERER=http://localhost/akses/index.php
+---
+2014/09/10 18:24:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view " " was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView(' ')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=+
+HTTP_REFERER=http://localhost/akses/index.php?r=site/index
+---
+2014/09/10 19:17:49 [error] [exception.CException] exception 'CException' with message 'Property "TbHeroUnit.align" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('align', 'center')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\uid.php(13): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/uid', NULL, true)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/uid')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=uid
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=uid
+---
+2014/09/10 19:17:54 [error] [exception.CException] exception 'CException' with message 'Property "TbHeroUnit.align" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('align', 'center')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\uid.php(13): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/uid', NULL, true)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/uid')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/akses/index.php?r=site/page&view=uid
+HTTP_REFERER=http://localhost/akses/index.php?r=site/page&view=uid
+---
+2014/09/12 08:55:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/index.php?r=gii
+---
+2014/09/12 08:55:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/index.php?r=login
+---
+2014/09/12 15:54:47 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\akses\protected\views\site\pages\about.php(14): image()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\akses\index.php(13): CWebApplication->run()
+REQUEST_URI=/akses/index.php?r=site/page&view=about
+in C:\xampp\htdocs\akses\protected\views\site\pages\about.php (14)
+in C:\xampp\htdocs\akses\index.php (13)
+2014/09/12 15:59:42 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\and.php(15): image()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\akses\index.php(13): CWebApplication->run()
+REQUEST_URI=/akses/index.php?r=site/page&view=and
+in C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\and.php (15)
+in C:\xampp\htdocs\akses\index.php (13)
+2014/09/12 16:03:10 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\and.php(17): image()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\akses\index.php(13): CWebApplication->run()
+REQUEST_URI=/akses/index.php?r=site/page&view=and
+in C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\and.php (17)
+in C:\xampp\htdocs\akses\index.php (13)
+2014/09/12 16:03:22 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\and.php(17): image()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\akses\index.php(13): CWebApplication->run()
+REQUEST_URI=/akses/index.php?r=site/page&view=and
+in C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\and.php (17)
+in C:\xampp\htdocs\akses\index.php (13)
+2014/09/12 16:03:23 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\and.php(17): image()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\akses\index.php(13): CWebApplication->run()
+REQUEST_URI=/akses/index.php?r=site/page&view=and
+in C:\xampp\htdocs\akses\themes\bootstrap\views\site\pages\and.php (17)
+in C:\xampp\htdocs\akses\index.php (13)
+2014/09/14 02:54:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/contact
+---
+2014/09/14 02:55:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/index.php/contact
+---
+2014/09/14 03:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboout".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aboout')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/aboout
+---
+2014/09/14 03:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page?view=about".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('page?view=about')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page?view=about')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page?view=...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/about
+---
+2014/09/14 03:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/about')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/about
+---
+2014/09/14 03:03:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/about')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/about
+---
+2014/09/14 03:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/about')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/about
+---
+2014/09/14 03:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/about')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/about
+---
+2014/09/14 03:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/about
+---
+2014/09/14 03:06:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('pages')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages/uid')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/uid
+---
+2014/09/14 03:07:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division/u...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/uid
+---
+2014/09/14 03:07:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division/u...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/uid
+---
+2014/09/14 03:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division/u...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/uid
+---
+2014/09/14 03:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division/u...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/uid
+---
+2014/09/14 03:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division/u...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/uid
+---
+2014/09/14 03:07:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "division/uid".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('division/uid')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/division/uid
+---
+2014/09/14 03:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "untuk/login".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('untuk/login')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/untuk/login
+---
+2014/09/14 03:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "untuk/login".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('untuk/login')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/untuk/login
+---
+2014/09/14 03:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "untuk/login".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('untuk/login')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/untuk/login
+---
+2014/09/14 03:08:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "untuk/login".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('untuk/login')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/untuk/login
+---
+2014/09/14 03:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login/tea".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/tea')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/login/tea
+---
+2014/09/14 03:09:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "login" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('login')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=login
+---
+2014/09/14 03:19:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/site/page?view=and
+---
+2014/09/14 03:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 03:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 03:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 03:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 03:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 03:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 03:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 03:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 03:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 03:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 03:19:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/contact".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/contact')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/contact
+HTTP_REFERER=http://localhost/akses/akses/contact
+---
+2014/09/14 05:00:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/uid
+---
+2014/09/14 05:01:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division/a')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/division/a
+---
+2014/09/14 05:02:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/division?view=a
+---
+2014/09/14 05:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division/a')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/division/a
+---
+2014/09/14 05:02:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/division?view=about
+---
+2014/09/14 05:06:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division/a')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/division/a
+---
+2014/09/14 05:06:05 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "a".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('a', NULL, true)
+#1 C:\xampp\htdocs\akses\protected\controllers\SiteController.php(112): CController->render('a')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionA()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('a')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/a')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/akses/site/a
+---
+2014/09/14 05:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "a".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('a')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/a
+---
+2014/09/14 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/division
+---
+2014/09/14 05:09:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division/a')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/division/a
+---
+2014/09/14 05:09:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division/a...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/division/asdf
+---
+2014/09/14 05:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "division".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('division')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/division
+---
+2014/09/14 05:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "division".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('division')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/division
+---
+2014/09/14 05:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "division".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('division')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/division
+---
+2014/09/14 05:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "division".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('division')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/division
+---
+2014/09/14 05:29:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "division".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('division')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('division')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/division')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/division
+---
+2014/09/14 05:31:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "division" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('division')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=division
+HTTP_REFERER=http://localhost/akses/site/page?view=about
+---
+2014/09/14 05:32:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "division" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('division')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=division
+HTTP_REFERER=http://localhost/akses/site/division
+---
+2014/09/14 05:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "division" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('division')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=division
+HTTP_REFERER=http://localhost/akses/site/page?view=division
+---
+2014/09/14 05:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "division" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('division')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=division
+HTTP_REFERER=http://localhost/akses/site/page?view=division
+---
+2014/09/14 05:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page?view=about".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('page?view=about')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page?view=about')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page?view=...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/page%3fview=about
+HTTP_REFERER=http://localhost/site/division
+---
+2014/09/14 05:34:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page?view=about".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('page?view=about')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page?view=about')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page?view=...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/page%3fview=about
+HTTP_REFERER=http://localhost/site/division
+---
+2014/09/14 05:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page?view=about".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('page?view=about')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page?view=about')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page?view=...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/page%3fview=about
+HTTP_REFERER=http://localhost/site/division
+---
+2014/09/14 05:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page?view=about".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('page?view=about')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page?view=about')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page?view=...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/page%3fview=about
+HTTP_REFERER=http://localhost/site/division
+---
+2014/09/14 05:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "division" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('division')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=division
+HTTP_REFERER=http://localhost/akses/site/page?view=uid
+---
+2014/09/14 05:37:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "division".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('division')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/division
+---
+2014/09/14 05:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "division/asdf".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('division/asdf')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/division/asdf
+---
+2014/09/14 05:38:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "division".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('division')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/division
+---
+2014/09/14 05:38:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "division".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('division')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/division
+---
+2014/09/14 05:40:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "uid" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('uid')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=uid
+HTTP_REFERER=http://localhost/akses/site/division/uid
+---
+2014/09/14 05:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "snsd" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('snsd')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=snsd
+HTTP_REFERER=http://localhost/akses/site/division
+---
+2014/09/14 05:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "uid" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('uid')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=uid
+HTTP_REFERER=http://localhost/akses/site/division
+---
+2014/09/14 05:42:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "and" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('and')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=and
+HTTP_REFERER=http://localhost/akses/site/contact
+---
+2014/09/14 05:42:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "uid" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('uid')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=uid
+HTTP_REFERER=http://localhost/akses/site/division
+---
+2014/09/14 05:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "practicum" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('practicum')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=practicum
+HTTP_REFERER=http://localhost/akses/site/division/uid
+---
+2014/09/14 05:50:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "division" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('division')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=division
+HTTP_REFERER=http://localhost/akses/site/page?view=practicum
+---
+2014/09/14 05:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "division" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('division')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/akses/site/page?view=division
+HTTP_REFERER=http://localhost/akses/site/page?view=gis
+---
+2014/09/14 06:21:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/css/font-awesome.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/themes/bootstrap/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/akses/site/page?view=about
+---
+2014/09/14 06:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/css/font-awesome.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/themes/bootstrap/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/akses/site/page?view=about
+---
+2014/09/14 06:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/css/font-awesome.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/themes/bootstrap/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/akses/site/page?view=about
+---
+2014/12/11 12:05:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:05:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/ban...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/banner.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/ban...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/banner.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/ban...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/banner.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/ban...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/banner.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:06:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/ban...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/banner.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:06:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/logo_akses.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:06:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tu....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/tu.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tu.jpg".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('tu.jpg')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('tu.jpg')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/tu.jpg')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/tu.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tu.jpg".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('tu.jpg')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('tu.jpg')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/tu.jpg')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/tu.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tu.jpg".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('tu.jpg')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('tu.jpg')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/tu.jpg')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/tu.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tu.jpg".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('tu.jpg')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('tu.jpg')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/tu.jpg')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/tu.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tu.jpg".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('tu.jpg')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('tu.jpg')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/tu.jpg')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/tu.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tu.jpg".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('tu.jpg')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('tu.jpg')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/tu.jpg')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/tu.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tu.jpg".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('tu.jpg')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('tu.jpg')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/tu.jpg')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/tu.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tu.jpg".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('tu.jpg')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('tu.jpg')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/tu.jpg')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/tu.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:07:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "banner.jpg".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('banner.jpg')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('banner.jpg')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/banner.jpg')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/banner.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "banner.jpg".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('banner.jpg')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('banner.jpg')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/banner.jpg')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/banner.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/ban...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/banner.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 12:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "akses/images/tu.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('akses/images/tu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/akses/images/tu.jpg
+HTTP_REFERER=http://localhost/akses/
+---
+2014/12/11 12:18:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact.php".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('contact.php')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/akses/contact.php
+---
+2014/12/11 12:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('contact.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('contact.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact.ph...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/contact.php
+---
+2014/12/11 13:01:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-3.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-4.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-3.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-4.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-3.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-4.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-3.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-4.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-3.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-4.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-4.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-3.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-3.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-4.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-3.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-4.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-3.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-4.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-3.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-2.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-1.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
+2014/12/11 13:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/Unt...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\akses\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akses/site/images/Untitled-4.jpg
+HTTP_REFERER=http://localhost/akses/site/index
+---
